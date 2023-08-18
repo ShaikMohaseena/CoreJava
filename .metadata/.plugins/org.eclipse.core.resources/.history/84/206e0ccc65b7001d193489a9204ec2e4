@@ -1,0 +1,22 @@
+class A
+{
+	 void show1()
+	 {
+		 System.out.println("i am in class A");
+	 }
+}
+class B extends A
+{
+	void show2()
+	{
+		super.show1();
+		System.out.println("i am in class B");
+	}
+}
+public class SuperTest {
+	public static void main(String[] args) {
+		B ob=new B();
+		ob.show2();
+	}
+
+}

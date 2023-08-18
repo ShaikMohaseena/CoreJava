@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+import in.smartprogramming.icici.laon.carloan.Carloan;
+import in.smartprogramming.icici.laon.homeloan.Homeloan;
+ 
+
+public class BankApp {
+
+	public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+         System.out.println("which type of loan you want to choose ?\n1.Car Loan\n2.Home Loan");
+           
+         int i=sc.nextInt();
+         if(i==1)
+         {
+        	 Carloan c1=new Carloan();
+             c1.getCarLoan();        	 
+        	 
+         }
+         else if(i==2)
+         {
+        	 Homeloan h1=new Homeloan();
+        	 h1.getHomeLoan();
+         }
+         else
+         {
+        	 System.out.println("invalid input");
+         }
+	}
+
+}

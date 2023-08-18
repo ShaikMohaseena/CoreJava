@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+/**
+ * @author LENOVO
+ *
+ */
+module Main {
+	requires A;
+	requires B;
+}

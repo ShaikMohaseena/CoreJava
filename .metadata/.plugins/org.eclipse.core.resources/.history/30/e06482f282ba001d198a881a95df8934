@@ -1,0 +1,9 @@
+package in.smartprogramming.icici.laon.carloan.CarLoan;
+
+public class Carloan {
+	  public void getCarLoan()
+	  {
+		  System.out.println("car loan is assigned");
+	  }
+
+}

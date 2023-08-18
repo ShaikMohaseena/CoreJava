@@ -1,0 +1,15 @@
+
+public class StaticDemo3 {
+	static  int no=10;
+	  static void m1()
+	 {
+          System.out.println(no);		 
+	 }
+	 public static void main(String[] args){
+		System.out.println(no);
+	 }
+	 
+	 
+	 
+
+}

@@ -1,0 +1,22 @@
+class Outer
+{
+	static class Inner
+	{
+          void show()
+	      {
+		        System.out.println("1");
+		
+	      }
+	}
+
+	 
+	
+}
+public class StaticMethod2 {
+
+	public static void main(String[] args) {
+		Outer.Inner ob=new Outer.Inner();
+        ob.show();
+	}
+
+}

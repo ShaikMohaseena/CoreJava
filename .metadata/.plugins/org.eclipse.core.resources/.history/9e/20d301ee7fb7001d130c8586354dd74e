@@ -1,0 +1,18 @@
+class A
+{
+	 static int a=10;
+	 static void show2()
+	{
+		System.out.println(a);
+	}
+	
+}
+public class StaticMethod2 {
+
+	public static void main(String[] args) {
+       // A ob=new A();
+       // ob.show1();
+        A .show2();
+	}
+
+}

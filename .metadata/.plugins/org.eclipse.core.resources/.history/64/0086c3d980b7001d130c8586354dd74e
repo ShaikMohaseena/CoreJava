@@ -1,0 +1,25 @@
+class A
+{
+    void show1()
+	{
+    	this.show2();
+		System.out.println("1");
+		
+	}
+	 static void show2()
+	 {
+		// this.show1();
+		 System.out.println("2"); 
+		 
+	 }
+
+	 
+	
+}
+public class StaticMethod2 {
+
+	public static void main(String[] args) {
+        A.show2();
+	}
+
+}

@@ -1,0 +1,23 @@
+interface Vehicle
+{
+     void start();
+
+	
+}
+public class AnonymousInnerClass {
+
+	public static void main(String[] args) {
+		
+         Vehicle v=new Vehicle ()
+         {
+        	 public void start()
+        	 {
+        		 System.out.println("starts with key");
+        	 }
+        	         };
+         v.start();
+        // v.showName();
+         
+	}
+
+}
